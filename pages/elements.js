@@ -310,10 +310,10 @@ export default () => (
                                 <form method="post" action="#">
                                     <div className="row uniform">
                                         <div className="6u 12u(xsmall)">
-                                            <input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+                                            <input type="text" name="demo-name" id="demo-name" placeholder="Name" />
                                         </div>
                                         <div className="6u 12u(xsmall)">
-                                            <input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+                                            <input type="email" name="demo-email" id="demo-email" placeholder="Email" />
                                         </div>
                                         <div className="12u">
                                             <div className="select-wrapper">
