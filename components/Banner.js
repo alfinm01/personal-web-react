@@ -5,10 +5,13 @@ const Banner = (props) => (
                 <h1>Hi, my name is Alfian</h1>
             </header>
             <div className="content">
-                <p>A responsive site template designed by HTML5 UP<br />
-                and released under the Creative Commons.</p>
+                <p>
+                    An IT enthusiasts, ...<br />
+                    Information System and Technology Undergraduate  <br />
+                    at Bandung Institute of Technology. <br />
+                </p>
                 <ul className="actions">
-                    <li><a href="#one" className="button next scrolly">Get Started</a></li>
+                    <li><a href="#main" className="button next scrolly">See Showcase</a></li>
                 </ul>
             </div>
         </div>
