@@ -83,6 +83,13 @@ export default () => (
                     </article>
                     <article style={{backgroundImage: `url('/static/images/pic06.jpg')`}}>
                         <header className="major">
+                            <h3>Loofow</h3>
+                            <p>Feugiat amet tempus</p>
+                        </header>
+                        <Link href="/landing"><a className="link primary"></a></Link>
+                    </article>
+                    <article style={{backgroundImage: `url('/static/images/pic06.jpg')`}}>
+                        <header className="major">
                             <h3>Random Simple Games</h3>
                             <p>Feugiat amet tempus</p>
                         </header>
@@ -91,6 +98,20 @@ export default () => (
                     <article style={{backgroundImage: `url('/static/images/pic06.jpg')`}}>
                         <header className="major">
                             <h3>Hiso: Fintech Hackathon 2019</h3>
+                            <p>Related story: <a href="https://medium.com/hmif-itb/fintech-hackathon-mimpi-200-juta-e9cd8b7bcdc3">Mimpi 200 juta by Christian Wibisono</a></p>
+                        </header>
+                        <Link href="/landing"><a className="link primary"></a></Link>
+                    </article>
+                    <article style={{backgroundImage: `url('/static/images/pic06.jpg')`}}>
+                        <header className="major">
+                            <h3>Dua Pagi</h3>
+                            <p>Hello</p>
+                        </header>
+                        <Link href="/landing"><a className="link primary"></a></Link>
+                    </article>
+                    <article style={{backgroundImage: `url('/static/images/pic06.jpg')`}}>
+                        <header className="major">
+                            <h3>Other: Video | TTKI | KWN</h3>
                             <p>Related story: <a href="https://medium.com/hmif-itb/fintech-hackathon-mimpi-200-juta-e9cd8b7bcdc3">Mimpi 200 juta by Christian Wibisono</a></p>
                         </header>
                         <Link href="/landing"><a className="link primary"></a></Link>
