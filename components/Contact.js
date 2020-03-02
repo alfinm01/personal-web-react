@@ -15,6 +15,9 @@ const Contact = (props) => (
                         <label htmlFor="message">Message</label>
                         <textarea name="message" id="message" rows="6"></textarea>
                     </div>
+                    <div className="field">
+                        <label htmlFor="note">Note: Your message will actually be sent to my email</label>
+                    </div>
                     <ul className="actions">
                         <li><input type="submit" value="Send Message" className="special" /></li>
                         <li><input type="reset" value="Clear" /></li>
@@ -26,23 +29,25 @@ const Contact = (props) => (
                     <div className="contact-method">
                         <span className="icon alt fa-envelope"></span>
                         <h3>Email</h3>
-                        <a href="#">information@untitled.tld</a>
+                        <a>me@alfianmaulana.com</a> (Primary)
+                        <br />
+                        <a>gmail@alfianmaulana.com</a>
                     </div>
                 </section>
                 <section>
-                    <div className="contact-method">
+                    <div id="phone-number" className="contact-method">
                         <span className="icon alt fa-phone"></span>
                         <h3>Phone</h3>
-                        <span>(000) 000-0000 x12387</span>
+                        <span>+62 813 2666 1043</span>
                     </div>
                 </section>
                 <section>
                     <div className="contact-method">
                         <span className="icon alt fa-home"></span>
                         <h3>Address</h3>
-                        <span>1234 Somewhere Road #5432<br />
-                        Nashville, TN 00000<br />
-                        United States of America</span>
+                        <span>153A Tubagus Ismail Raya Street<br />
+                        Coblong, Bandung, West Java<br />
+                        Indonesia</span>
                     </div>
                 </section>
             </section>
