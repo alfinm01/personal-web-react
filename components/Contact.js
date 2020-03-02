@@ -35,15 +35,6 @@ const Contact = (props) => (
                     </div>
                 </section>
                 <section>
-                    <div className="contact-method">
-                        <span className="icon alt fa-envelope"></span>
-                        <h3>Email</h3>
-                        <a>me@alfianmaulana.com</a> (Primary)
-                        <br />
-                        <a>gmail@alfianmaulana.com</a>
-                    </div>
-                </section>
-                <section>
                     <div id="phone-number" className="contact-method">
                         <span className="icon alt fa-phone"></span>
                         <h3>Phone</h3>
