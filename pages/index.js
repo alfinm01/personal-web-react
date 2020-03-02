@@ -109,13 +109,13 @@ export default () => (
                         </header>
                         <Link href="/landing"><a className="link primary"></a></Link>
                     </article>
-                    {/*<article style={{backgroundImage: `url('/static/images/min/pic06-min.jpg')`}}>
+                    <article style={{backgroundImage: `url('/static/images/min/hiso-min.png')`}}>
                         <header className="major">
                             <h3>Tanam</h3>
                             <p>Placeholdeer</p>
                         </header>
                         <Link href="/landing"><a className="link primary"></a></Link>
-                    </article>*/}
+                    </article>
                     <article style={{backgroundImage: `url('/static/images/min/other-min.jpg')`}}>
                         <header className="major">
                             <h3>Other: Video | TTKI | KWN</h3>
