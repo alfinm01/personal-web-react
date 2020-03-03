@@ -10,7 +10,7 @@ const Menu = (props) => (
             </ul>
             <ul className="actions vertical">
                 <li><a href="#contact" className="button special fit">Contact Me</a></li>
-                <li><a href="#" className="button fit">View Resume</a></li>
+                <li><a href="https://docs.google.com/document/d/1K_929eTEKFd3NL68SIRmlvE2YbJYVCT4vw6KxugyfRk/edit?usp=sharing" target="_blank" className="button fit">View Resume</a></li>
             </ul>
         </div>
         <a className="close" onClick={props.onToggleMenu}>Close</a>
