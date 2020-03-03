@@ -22,9 +22,8 @@ export default () => (
                         <header className="major">
                             <h3>Hiso: Fintech Hackathon 2019</h3>
                             <p>Journey of a 200 million dream</p>
-                            <p>Related story: <a href="https://medium-min.com/hmif-itb/fintech-hackathon-mimpi-200-juta-e9cd8b7bcdc3">Mimpi 200 juta by Christian Wibisono</a></p>
                         </header>
-                        <Link href="/projects"><a className="link primary"></a></Link>
+                        <Link href="/projects/hiso-fintech-hackathon-2019"><a className="link primary"></a></Link>
                     </article>
                     <article style={{backgroundImage: `url('/static/images/min/askaraga-logo-min.jpg')`}}>
                         <header className="major">
@@ -38,7 +37,7 @@ export default () => (
                             <h3>ITB Chemistry IS</h3>
                             <p>An information system website for Chemistry ITB</p>
                         </header>
-                        <Link href="/projects/itb-chemistry-is"><a className="link primary"></a></Link>
+                        <Link href="/projects"><a className="link primary"></a></Link>
                     </article>
                     <article style={{backgroundImage: `url('/static/images/min/loofow-min.jpg')`}}>
                         <header className="major">
