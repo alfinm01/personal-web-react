@@ -16,10 +16,10 @@ const Contact = (props) => (
                         <textarea name="message" id="message" rows="6"></textarea>
                     </div>
                     <div className="field">
-                        <label htmlFor="note">Note: Your message will actually be sent to my email</label>
+                        <label htmlFor="note">Note: Your message will actually be sent to my email (Not yet implemented)</label>
                     </div>
                     <ul className="actions">
-                        <li><input type="submit" value="Send Message" className="special" /></li>
+                        <li><input type="submit" value="Send Message" className="special" disabled /></li>
                         <li><input type="reset" value="Clear" /></li>
                     </ul>
                 </form>
